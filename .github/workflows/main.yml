@@ -20,5 +20,5 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "pyscript.alitrack.com"
+          project: "pyscript"
           entrypoint: "./server.ts" # TODO: update entrypoint
